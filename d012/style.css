@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family: 'Passionone';
+        src: url(fonte/PassionOne-Bold.ttf) format(truetype), url(fonte/PassionOne-Black.ttf) format(truetype), url(fonte/PassionOne-Regular.ttf) format(truetype);
+    }
+    @font-face {
+        font-family: "sriracha";
+        src: url(fonte/Sriracha-Regular.ttf) format(truetype);
+    }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-size: 1em;
+    }
+    body{
+        min-height: 100vh;
+        background-color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header{
+        text-align: center;
+        background-color: black;
+    }
+    header>h1{
+        font-family: 'Passionone', Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 10vw;
+        font-variant: small-caps;
+        padding: 50px 0px 5px 0px;
+    }
+    h1{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    header>h2{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    section{
+        background-color: white;
+        font-family: "sriracha", Arial, Helvetica, sans-serif;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-size: 3.5vw;
+        }
+    section#p2{
+        background-image: url(imagens/background001.jpg);
+        background-position: right center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    }
+    section#p2>p{
+        display: inline-block;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.514);
+        text-shadow: 1px 1px 0px black;
+    }
+    section#p5{
+        background-image: url(imagens/background002.jpg);
+        background-position: right center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    }
+    section#p5>p{
+        display: inline-block;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.514);
+        text-shadow: 1px 1px 0px black;
+    }
+    footer{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        color: white;
+    }
+    footer>a{
+        font-weight: bold;
+    }
+    
